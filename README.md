@@ -27,3 +27,8 @@
 - Add the stargazer count of repositories to awesome lists. This is a helpful metric in seeing what the most popular libraries or frameworks are when exploring new languages or frameworks
 - Uses an express back-end with OAuth, the front-end uses the Github GraphQL API and React with ReactMarkdown
 - If I were to do it again, I would remove ReactMarkdown. Parsing of the markdown would be done separately. Then the parsed object would be fed into React components. The current implementation is a quick-and-dirty hack. The components send state upwards in order to batch the GraphQL query due to the way it is utilizing ReactMarkdown. - https://github.com/robbywashere/lucky-starz/blob/master/pages/repo.js#L229
+
+### Tiny Contributions
+- https://github.com/DefinitelyTyped/DefinitelyTyped/pull/30602
+- https://github.com/sferik/rails_admin/pull/3006
+- https://github.com/apollographql/apollo-link-rest/pull/168
