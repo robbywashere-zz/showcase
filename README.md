@@ -11,7 +11,7 @@
 ## Simple Trello Clone 
 - **Source/Demo**: https://codesandbox.io/s/2x193kn6mn
 - Uses React with styled-components
-- Hoisted State, does not rely on redux, base components are styled with styled-components which are then composed within state holding component (App)
+- Hoisted State, does not rely on redux, base components are styled with styled-components which are then composed within a state holding component (App)
 - To improve, it could use tests using jest and enzyme, particularly testing the Move, Add, and Delete card functionality - similar to how the Tic-Tac-Toe app (below) is tested
 
 
