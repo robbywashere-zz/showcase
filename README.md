@@ -19,7 +19,7 @@
 - **Source/Demo**: https://codesandbox.io/s/jpq1573mzw
 - Game logic and state separate from view logic components to satisfy separation of concerns principle
 - Separation of concerns uses the Render prop pattern - https://reactjs.org/docs/render-props.html
-- 8 Passing tests, test the rendering of a tic-tac-toe grid as well, the game logic, and the user interactions
+- 8 Passing tests, test the rendering of a tic-tac-toe grid, the game logic, and the user interactions
 
 ## Lucky Starz / Awesome List Stargazers 
 - **Demo**: https://myluckystarz.herokuapp.com
