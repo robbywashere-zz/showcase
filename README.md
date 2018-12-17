@@ -3,9 +3,9 @@
 ## Weather Radials 
 - **Demo**: https://weather-radials.netlify.com/
 - **Source**: https://github.com/robbywashere/weather-radials
-- A very informative data visualization of weather in 6 different cities during 2017. Of note for instance, Austin had a lot of rain due to hurrican Harvey. You can see how bad the drought is in Southern California. NYC weather is very similar to Cleveland but with heavier rain and the summer looks to be a little hotter.
-- Uses D3js, Webpack via create react app; but with react removed and Typescript.
-- Code improvements could be to add tests to the d3 renders. Seperating the logic into more functions and removing some reliances on hard-coded values and data.
+- A very informative data visualization of weather in 6 different cities during 2017. Of note, for instance, Austin had a lot of rain due to hurricane Harvey. You can see how bad the drought is in Southern California. NYC weather is very similar to Cleveland but with heavier rain and the summer looks to be a little hotter.
+- Uses D3js, Webpack via create-react-app; but with react removed and Typescript.
+- Code improvements could be to add tests to the d3 renders. Separating the logic into more functions and removing some reliances on hard-coded values and data.
 
 
 ## Simple Trello Clone 
@@ -15,16 +15,15 @@
 - To improve, it could use tests using jest and enzyme, particularly testing the Move, Add, and Delete card functionality - similar to how the Tic-Tac-Toe app (below) is tested
 
 
-## 2-Player Tic Tac App
+## 2-Player Tic Tac Toe App
 - **Source/Demo**: https://codesandbox.io/s/jpq1573mzw
-- Game Logic and state seperate from view logic components to satisfy separation of concerns principle
+- Game Logic and state separate from view logic components to satisfy separation of concerns principle
 - Separation of concerns uses the Render prop pattern - https://reactjs.org/docs/render-props.html
-- 8 Passing tests, tests the rendering of a tic-tac-toe grid as well, the game logic, and the user interactions
+- 8 Passing tests, test the rendering of a tic-tac-toe grid as well, the game logic, and the user interactions
 
 ## Lucky Starz / Awesome List Stargazers 
 - **Demo**: https://myluckystarz.herokuapp.com
 - **Source**: https://github.com/robbywashere/lucky-starz/
 - Add the stargazer count of repositories to awesome lists. This is a helpful metric in seeing what the most popular libraries or frameworks are when exploring new languages or frameworks
-- Uses an express back-end with OAuth, the front-end uses the Github GraphQL api and React with ReactMarkdown
-- If I were to do it again, I would remove ReactMarkdown. Parsing of the markdown would be done seperately. Then the parsed object would be fed that into React components. The current implimentation is a quick-and-dirty hack, in that the components send state upwards in order to batch the graphql query. - https://github.com/robbywashere/lucky-starz/blob/master/pages/repo.js#L229
-
+- Uses an express back-end with OAuth, the front-end uses the Github GraphQL API and React with ReactMarkdown
+- If I were to do it again, I would remove ReactMarkdown. Parsing of the markdown would be done separately. Then the parsed object would be fed that into React components. The current implementation is a quick-and-dirty hack, in that the components send state upwards in order to batch the GraphQL query. - https://github.com/robbywashere/lucky-starz/blob/master/pages/repo.js#L229
