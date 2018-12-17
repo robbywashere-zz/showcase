@@ -29,7 +29,7 @@
 - If I were to do it again, I would remove ReactMarkdown. Parsing of the markdown would be done separately. Then the parsed object would be fed into React components. The current implementation is a quick-and-dirty hack. The components send state upwards in order to batch the GraphQL query due to the way it is utilizing ReactMarkdown. - https://github.com/robbywashere/lucky-starz/blob/master/pages/repo.js#L229
 
 ## Some Api
-
+- A simple news feed api reader with search and infinite scroll
 - **Source** - https://github.com/robbywashere/some-api
 - **Demo** - https://gracious-ritchie-a76a6b.netlify.com
 - Uses React, Typescript and GraphQL via Apollo Client
