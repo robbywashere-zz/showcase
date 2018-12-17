@@ -32,3 +32,4 @@
 - https://github.com/DefinitelyTyped/DefinitelyTyped/pull/30602
 - https://github.com/sferik/rails_admin/pull/3006
 - https://github.com/apollographql/apollo-link-rest/pull/168
+- https://github.com/apollographql/graphql-subscriptions/pull/185
