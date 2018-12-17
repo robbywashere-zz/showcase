@@ -4,7 +4,7 @@
 - **Demo**: https://weather-radials.netlify.com/
 - **Source**: https://github.com/robbywashere/weather-radials
 - A very informative data visualization of weather in 6 different cities during 2017. Of note, for instance, Austin had a lot of rain due to hurricane Harvey. You can see how bad the drought is in Southern California. NYC weather is very similar to Cleveland but with heavier rain and the summer looks to be a little hotter.
-- Uses D3js, Webpack via create-react-app; but with react removed and Typescript.
+- Uses D3js, Webpack and Typescript.
 - Code improvements could be to add tests to the D3js renders. Separating the logic into more functions and removing some reliances on hard-coded values and data.
 
 
